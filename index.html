@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- google fonts  -->
+         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!-- font awesome css link  -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- custom css link  -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- responsive css link  -->
+        <link rel="stylesheet" href="css/media.css">
+        <title>Bondi</title>
+  </head>
+  <body>
+    <!-- start header section  -->
+    <header>
+        <div class="container">
+          <div class="row">
+              <!-- start nav  -->
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="bondilogo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse menu" id="nav-content">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Protfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                      </li>
+                      
+                    </ul>
+                    <!-- search  -->
+                    <div class="dropdown">
+                      <button class="btn btn-custom" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-search"></i>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="dropdownMenuButton">
+                        <form class="d-flex">
+                          <input class="form-control from-control-custom me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn custom-outline-btn" type="submit">Search</button>
+                        </form>
+                      </ul>
+                    </div>
+                    <!-- search  -->
+                    <!-- login  -->
+                    <div class="logi-reper">
+                      <button type="button" class="btn login-button " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Login
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="staticBackdropLabel">use your personal account to log in</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <!-- login-form  -->
+                              <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                  <input type="text" readonly class="form-control-plaintext" id="staticEmail"placeholder="enter your email">
+                                </div>
+                              </div>
+                              <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                  <input type="password" class="form-control" id="inputPassword">
+                                </div>
+                              </div>
+                              <!-- login-form  -->
+                            </div>
+                            <div class="modal-footer">
+                              <button type="email" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn login-button">Login</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- login  -->
+                  </div>
+                </div>
+              </nav>  
+              <!--end nav-->
+          </div>
+        </div>  
+      </header>
+    <!--end header section -->
+    <!-- start banner section  -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1 class="h1">Taste the Creativity</h1>
+                <p class="p">We make awesome graphic and web design</p>
+                <div class="comon-button-repper">
+                    <button class="btn common-button">Get Start</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end banner section  -->
+    <!-- start service section  -->
+    <section class="service">
+        <div class="container">
+            <div class="row">
+                <div class="common-main-content text-center">
+                    <img src="img/comon logo.png" class="img-fluid" alt="bondi_common-img">
+                    <h1 class="comon-h1">We are Good at </h1>
+                    <p class="p">SOME OF THEASE STUFF UNDER</p>
+                    <hr class="common-hr mx-auto">
+                  </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 number1">
+                   <div class="service-full-content text-center">
+                     <img src="img/service1.png" alt="service1">
+                     <h6 class="service-h6">GRAPHIC DESIGN</h6>
+                     <p class="p">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                   </div>
+                </div>
+                <div class="col-md-4 number2">
+                 <div class="service-full-content text-center">
+                   <img src="img/service2.png" alt="service1">
+                   <h6 class="service-h6">WEB DESIGN</h6>
+                   <p class="p">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                 </div>
+              </div>
+              <div class="col-md-4 number3">
+               <div class="service-full-content text-center">
+                 <img src="img/service3.png" alt="service1">
+                 <h6 class="service-h6">APP DESIGN</h6>
+                 <p class="p">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+               </div>
+            </div>
+              </div>
+        </div>
+    </section>
+    <!-- end service section  -->
+    <!-- start protfolio section  -->
+    <section class="protfolio">
+        <div class="container">
+            <div class="row">
+                <div class="common-main-content text-center">
+                    <img src="img/comon logo.png" class="img-fluid" alt="bondi_common-img">
+                    <h1 class="comon-h1">We Make This</h1>
+                    <p class="p">PREPARE TO BE AMAZED</p>
+                    <hr class="common-hr mx-auto">
+                  </div>
+            </div>
+            <div class="row text-center">
+                <div class="btn-grp">
+                  <button type="button" class="btn  group-button p active1">All</button>
+                  <button type="button" class="btn  group-button p">Design</button>
+                  <button type="button" class="btn  group-button p">Code</button>
+                  <button type="button" class="btn  group-button p">photography</button>
+                  <button type="button" class="btn  group-button p">Apps</button>
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box text-center">
+                     <i class="fas fa-code font-icon"></i>
+                     <h4>web development</h4>
+                      <p class="p">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>  
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="box text-center">
+                     <i class="fas fa-crop font-icon"></i>
+                     <h4>graphic organizer</h4>
+                     <p class="p">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="box text-center">
+                     <i class="fas fa-icons font-icon"></i>
+                     <h4>photography</h4>
+                     <p class="p">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="box text-center">
+                     <i class="fas fa-tablet font-icon"></i>
+                     <h4>apps development</h4>
+                     <p class="p">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="box text-center">
+                      <i class="fab fa-whatsapp font-icon"></i>
+                      <h4>apps development</h4>
+                      <p class="p">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="box text-center">
+                      <i class="fas fa-camera font-icon"></i>
+                     <h4>photo gallery</h4>
+                     <p class="p">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="box text-center">
+                      <i class="fab fa-sketch font-icon"></i>
+                     <h4>Ruby language</h4>
+                     <p class="p">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="box text-center">
+                      <i class="fas fa-laptop-code font-icon"></i>
+                     <h4>Coder</h4>
+                     <p class="p">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+               </div>
+               <div class="comon-button-repper service-button text-center">
+                <button class="btn common-button">Get Start</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- end protfolio section  -->
+    <!-- start led section  -->
+    <section class="led">
+        <div class="container">
+            <div class="row">
+                <div class="common-main-content text-center">
+                    <img src="img/comon logo.png" class="img-fluid" alt="bondi_common-img">
+                    <h1 class="comon-h1">We Make This</h1>
+                    <p class="p">PREPARE TO BE AMAZED</p>
+                    <hr class="common-hr mx-auto">
+                    <div class="extra-p ">
+                        <p class="p">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+                        </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+            <div class="container">
+                <div class="row ">
+                    <div class="row">
+                        <div class="col-md-5 col-12">
+                                <div class="blog-content">
+                                <h3 class="blog">Retina Design</h3>
+                                <p class="p">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                </P>
+                                <P class="p"> Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+                                </p>
+                                <button class=" btn common-button led-button mb-2"> OREDER ME ONE</button>
+                                </div>
+                            </div>
+                            <div class="led-img col-md-7 col-sm-12">
+                                <div class="row">
+                                    <img src="img/tv.png" class="img-fluid led-img "alt="">
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+                </section>
+    <!-- end led section  -->
+    <!-- team section start  -->
+    <section class="team">
+                <div class="container">
+                    <div class="row justify-content-center">
+                     <div class=" col-lg-10 team-hilight">
+                       <h1 class="team-color-h1">Meet the Team</h1>
+                       <p class="p">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+                       </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row mx-auto">
+                        <div class="col-lg-3 col-md2 col-12 mx-auto">
+                            <div class="card card-w">
+                                <img src="img/team1.png" class="card-img-top img-fluid" alt="team1">
+                                <div class="card-body">
+                                    <h5 class="card-person-name">Luke Skywalker</h5>
+                                  <p class="card-text p text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-3 col-md2 col-12 mx-auto">
+                            <div class="card card-w">
+                                <img src="img/team2.png" class="card-img-top img-fluid" alt="team1">
+                                <div class="card-body">
+                                    <h5 class="card-person-name">Obi-Wan Kenobi</h5>
+                                  <p class="card-text p text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-3 col-md2 col-12 mx-auto">
+                            <div class="card card-w">
+                                <img src="img/team3.png" class="card-img-top img-fluid" alt="team1">
+                                <div class="card-body">
+                                    <h5 class="card-person-name">Princess Leia</h5>
+                                  <p class="card-text p text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-3 col-md2 col-12 mx-auto">
+                            <div class="card card-w">
+                                <img src="img/team4.png" class="card-img-top img-fluid" alt="team1">
+                                <div class="card-body">
+                                    <h5 class="card-person-name">Yoda</h5>
+                                  <p class="card-text p text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                       
+                        
+                       
+                    </div>
+                </div>
+    </section>
+
+    <!-- end team section  -->
+    <!-- start brand logoo  -->
+    
+    <section class="brand">
+        <div class="container">
+          <div class="col-lg-10 col-md-11 col-12 mx-auto">
+            <div class="row">
+                <ul class="list-inline text-center">
+                  <li class="list-inline-item brand-logo"><img src="img/brand1.png"  class="img-fluid"alt="brandlogo"></li>
+                  <li class="list-inline-item brand-logo"><img src="img/brand2.png"  class="img-fluid"alt="brandlogo"></li>
+                  <li class="list-inline-item brand-logo"><img src="img/brand3.png"  class="img-fluid"alt="brandlogo"></li>
+                  <li class="list-inline-item brand-logo"><img src="img/brand4.png"  class="img-fluid"alt="brandlogo"></li>
+                  <li class="list-inline-item brand-logo"><img src="img/brand1.png"  class="img-fluid"alt="brandlogo"></li>
+                  <li class="list-inline-item brand-logo"><img src="img/brand2.png"  class="img-fluid"alt="brandlogo"></li>
+                </ul>
+              </div>
+          </div>
+          </div>
+      </section>
+            
+    <!-- end brand logo  -->
+    <!-- start project section -->
+    <section class="banner project">
+        <div class="container">
+            <div class="banner-content">
+                <h1 class="h1">Start Your Project Now</h1>
+                <p class="p">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+                <div class="comon-button-repper">
+                    <button class="btn common-button">Get Start</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end project section  -->
+    <!--start website-review section  -->
+    <section class="website-review">
+        <div class="container">
+            <div class="row">
+                <div class="common-main-content text-center">
+                    <img src="img/comon logo.png" class="img-fluid" alt="bondi_common-img">
+                    <h1 class="comon-h1">Read Our Blog</h1>
+                    <p class="p">NEW STORIES</p>
+                    <hr class="common-hr mx-auto">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="website-reper text-center">
+                        <img src="img/psd.PNG" class="img-fluid img-website" alt="psd" >
+                        <p class="p">January 17,2017</p>
+                        <h6>Some Awesome Blog Title Here</h6>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="website-reper text-center">
+                        <img src="img/psd2.PNG" class="img-fluid img-website" alt="psd" >
+                        <p class="p">January 17,2017</p>
+                        <h6>Some Awesome Blog Title Here</h6>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="website-reper text-center">
+                        <img src="img/psd3.PNG" class="img-fluid img-website" alt="psd" >
+                        <p class="p">January 17,2017</p>
+                        <h6>Some Awesome Blog Title Here</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="comon-button-repper text-center mt-4">
+                <button class="btn common-button">MORE STORIES</button>
+            </div>
+        </div>
+    </section>
+    <!--end website-review section  -->
+    <!-- start email section  -->
+   <section class="email">
+     <div class="container">
+       <div class="row justify-content-around">
+         <div class="col-md-10 col-12">
+           <span class="mt-4">Subscribe to our Newsletter:</span>
+           <input type="email" class="input-size col-sm-12 mt-4" placeholder="Enter email Address">
+           <button class="btn subscribe mt-4">Subscribe</button>
+         </div>
+       </div>
+     </div>
+   </section>
+    <!-- end email section  -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <div class="contact1">
+              <img src="img/logo.png"class="img-fluid logo-footer" alt="logo">
+              <p class="footer-p">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+              <br><br>
+              <p class="footer-p">Created by <span class="color-sky"> Graphberry</span>,Belgrade,Serbia</p>
+              <p class="footer-p"> © 2017 - <span class="color-yello "> Bondi.Inc</span></p>
+            </div>
+
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="contact2">
+              <ul class="footer-ul">
+                <li><a href="#"class="active-footer">Links</a></li>
+                <li><a href="#" class="footer-p">home</a></li>
+                <li><a href="#" class="footer-p">our service</a></li>
+                <li><a href="#" class="footer-p">protfollio</a></li>
+                <li><a href="#" class="footer-p">Testimonial</a></li>
+                <li><a href="#" class="footer-p">Support</a></li>
+                <li><a href="#" class="footer-p">Times &condition</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-6">
+            <div class="contact3">
+              <ul class="footer-ul">
+                <li><a href="#" class="active-footer">About Us</a></li>
+                <li><a href="#"class="footer-p">sign in</a></li>
+                <li><a href="#"class="footer-p">Register</a></li>
+                <li><a href="#"class="footer-p">About us</a></li>
+                <li><a href="#"class="footer-p">Blog</a></li>
+                <li><a href="#"class="footer-p">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="contact4">
+              <p class="active-footer mt-3">contact us</p>
+              <p class="footer-p">Get in touch with us via mail phone.We are waiting for 
+                your call or message</p>
+                <button class="btn common-button btn-footer"> graphb</button>
+                <ul class="list-inline social">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble-square"></i></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  
+
+     <!-- JavaScript Bundle with Popper -->
+     <script src="js/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+     <script src="js/script.js"></script>
+    </body>
+</html>
